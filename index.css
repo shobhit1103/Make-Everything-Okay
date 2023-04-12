@@ -1,0 +1,110 @@
+/* Laptop screen size */
+.bg-image {
+  background-image: url('./src/Laptop\ BG.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+}
+.btn-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Mobile screen size */
+@media (max-width: 576px) {
+  .bg-image {
+    background-image: url('./src/Pink\ and\ Purple\ Retro\ Aesthetic\ Anime\ Boy\ and\ Street\ Lights\ Background\ Bookmark.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+  }
+  .btn-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.button {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #2ecc71;
+  box-shadow: 0px 5px 0px 0px #15B358;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.button:hover {
+  transform: translate(-50%, 5px);
+  box-shadow: 0px 2px 0px 0px #15B358;
+}
+
+.modal{
+  margin-top: 10%;
+  box-shadow: 0px 5px 0px 0px #15B358;
+}
+
+.modal-body{
+  padding-bottom: 70px;
+  
+}
+
+#myModal2 .modal-content {
+  border-radius: 0;
+  background-color: #2ecc71; 
+  color: #fff;
+  font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#myModal2 .modal-header {
+  border: none;
+}
+
+#myModal2 .modal-header h4.modal-title {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+#myModal2 .modal-header button.close {
+  color: #fff;
+}
+
+#myModal2 .modal-body {
+  padding: 40px;
+}
+
+#myModal2 .modal-footer {
+  border: none;
+  background-color: rgba(255,255,255,0.2);
+}
+
+#myModal2 .modal-footer button {
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #fff;
+  color: #2ecc71; 
+}
+
+#myModal2 .modal-footer button:hover {
+  background-color: #2ecc71; 
+  color: #fff;
+}
+
+.footer{
+  background-color: #2ecc71; 
+  color: #fff;
+  opacity: 0.7;
+}
